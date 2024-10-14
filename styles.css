@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 10px; 
+}
+
+.card {
+    background: #ffff;
+    border: 1px solid black; 
+    border-radius: 8px; 
+    color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+    padding: 20px; 
+    width: 250px; 
+    flex: 0 1 auto;
+    text-align: center; 
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0; /* Estilo para la imagen en la parte superior */
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.more-info {
+    display: block; /* Hace que el enlace ocupe toda la línea */
+    margin-top: 10px; /* Espacio superior */
+    color: #00f; /* Color azul para el enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.more-info:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilo para el contenedor de búsqueda */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la barra de búsqueda */
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#search-bar:focus {
+    outline: none;
+    border-color: #007bff; /* Cambia el color del borde cuando está enfocado */
+}
+

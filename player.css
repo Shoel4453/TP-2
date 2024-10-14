@@ -1,0 +1,77 @@
+body{
+    background-color: darkgray;
+}
+
+/* Estilos generales para el contenedor */
+.player-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+/* Imagen del jugador */
+.player-details-container img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+/* Estilo para las etiquetas y el texto */
+.player-details-container p {
+    margin: 10px 0; 
+    font-size: 1.1em; 
+    color: #333; 
+
+}
+
+/* Negrita para los encabezados */
+.player-details-container p strong {
+    color: #007bff; 
+}
+
+/* Estilo para el título del jugador */
+.player-details-container h1 {
+    font-size: 2em; 
+    color: #212529; 
+}
+h1{
+    text-align: center; 
+    background-color: #f8f9fa;
+    margin: 0px;
+}
+/* Estilos para el contenedor del botón */
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+/* Estilos para el botón */
+.back-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #01f315; 
+}
+
+.back-button:focus {
+    outline: none; 
+}
+
